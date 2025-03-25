@@ -1,0 +1,10 @@
+localhost
+www.google.com
+www.cloudflare.com
+www.amazon.com
+www.microsoft.com
+www.bbc.co.uk
+www.yandex.com
+www.tencent.com
+www.wikipedia.org
+www.gov.za
