@@ -5,6 +5,6 @@
 
 while read -r SERVER; do
     echo "MTR para $SERVER:"
-    sudo mtr --report -c 10 "$SERVER" 2>/dev/null || echo "  Falha ao executar MTR"
+    sudo mtr -6 --report -c 10 "$SERVER" 2>/dev/null || echo "  Falha ao executar MTR"
     echo ""
 done < "$1"
